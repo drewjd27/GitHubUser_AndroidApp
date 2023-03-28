@@ -1,6 +1,7 @@
 package com.example.githubuser.ui.detail
 
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
@@ -26,6 +27,7 @@ class DetailUserActivity : AppCompatActivity() {
         val bundle = Bundle()
         bundle.putString(EXTRA_USERNAME, username)
 
+        showLoading(true)
         viewModel = ViewModelProvider(
             this,
             ViewModelProvider.NewInstanceFactory()
@@ -43,6 +45,7 @@ class DetailUserActivity : AppCompatActivity() {
                         .load(it.avatarUrl)
                         .into(ivProfile)
                 }
+                showLoading(false)
             }
         })
 
@@ -55,4 +58,11 @@ class DetailUserActivity : AppCompatActivity() {
         }
     }
 
+    private fun showLoading(stateLoading: Boolean) {
+        if (stateLoading) {
+            binding.pbProfile.visibility = View.VISIBLE
+        } else {
+            binding.pbProfile.visibility = View.GONE
+        }
+    }
 }

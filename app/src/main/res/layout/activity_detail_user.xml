@@ -15,10 +15,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:src="@drawable/github_w"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/github_w" />
 
     <TextView
         android:id="@+id/tv_name"
@@ -27,12 +27,12 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="14dp"
         android:fontFamily="@font/poppinssemibold"
-        android:text="@string/nama"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iv_profile" />
+        app:layout_constraintTop_toBottomOf="@+id/iv_profile"
+        tools:text="@string/nama" />
 
     <TextView
         android:id="@+id/tv_username"
@@ -40,12 +40,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="@font/poppins"
-        android:text="@string/username"
         android:textColor="@color/font_color_variant1_dark"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/tv_name"
         app:layout_constraintStart_toStartOf="@+id/tv_name"
-        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_name"
+        tools:text="@string/username" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -65,12 +65,12 @@
             android:drawablePadding="8dp"
             android:fontFamily="@font/poppins"
             android:gravity="center_vertical"
-            android:text="@string/followersCount"
             android:textColor="@color/font_color_variant3_dark"
             android:textSize="14sp"
             app:drawableStartCompat="@drawable/baseline_people_outline_24"
             tools:layout_editor_absoluteX="30dp"
-            tools:layout_editor_absoluteY="196dp" />
+            tools:layout_editor_absoluteY="196dp"
+            tools:text="@string/followersCount" />
 
         <TextView
             android:id="@+id/tv_divider"
@@ -91,11 +91,11 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins"
             android:gravity="center_horizontal"
-            android:text="@string/followingCount"
             android:textColor="@color/font_color_variant3_dark"
             android:textSize="14sp"
             tools:layout_editor_absoluteX="30dp"
-            tools:layout_editor_absoluteY="196dp" />
+            tools:layout_editor_absoluteY="196dp"
+            tools:text="@string/followingCount" />
 
     </LinearLayout>
 
@@ -121,5 +121,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tabs" />
+
+    <ProgressBar
+        android:id="@+id/pb_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/tabs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>

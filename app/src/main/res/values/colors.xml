@@ -13,4 +13,9 @@
     <color name="font_color_variant1_dark">#A9ABB7</color>
     <color name="font_color_variant2_dark">#BEC1C8</color>
     <color name="font_color_variant3_dark">#FEFEFE</color>
+
+    <color name="profile_name_section_loading_color">#424242</color>
+    <color name="profile_uname_section_loading_color">#353535</color>
+    <color name="profile_follow_section_loading_color">#272727</color>
+
 </resources>
