@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">GitHub User</string>
+    <string name="app_name">GitHub\'s User Search </string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="searchbar_placeholder">Search some user</string>
+    <string name="no_search_first_line">There’s nothing to show right now.</string>
+    <string name="no_search_second_line">Try to search user(s) with search bar above.</string>
+    <string name="nama">Andrew Jonatan Damanik</string>
+    <string name="username">endruu123</string>
+
+    <string name="followersCount">1234 Followers</string>
+    <string name="followingCount">4321 Following</string>
+
+    <string name="tab_1">Followers</string>
+    <string name="tab_2">Following</string>
+    <string name="divider">•</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
 </resources>
