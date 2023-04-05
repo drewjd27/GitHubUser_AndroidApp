@@ -7,20 +7,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="white_variant">#F8F8F8</color>
 
     <color name="black_bg_dark">#050505</color>
     <color name="black_system_navigation_dark">#030303</color>
     <color name="transparent">#00FF0000</color>
     <color name="item_black_bg_dark">#17181C</color>
-    <color name="item_black_bg2_dark">#252525</color>
+    <color name="item_black_bg2_dark">#201F24</color>
     <color name="input_searchbar_placeholder_dark">#BABABA</color>
-    <color name="clear_input_searchbar_dark">#DBDCE1</color>
-    <color name="searchbar_border_dark">#B5B7C1</color>
+    <color name="clear_input_searchbar_dark">#BEC1C8</color>
+    <color name="searchbar_border_dark">#6C6F7D</color>
     <color name="icon_color">#6C6F7D</color>
     <color name="blue">#2E90FF</color>
     <color name="edit_text_color">#FFFFFF</color>
-    <color name="font_color_variant1_dark">#5C5D63</color>
+    <color name="font_color_variant1_dark">#A9ABB7</color>
     <color name="font_color_variant2_dark">#BEC1C8</color>
     <color name="font_color_variant3_dark">#FEFEFE</color>
 
